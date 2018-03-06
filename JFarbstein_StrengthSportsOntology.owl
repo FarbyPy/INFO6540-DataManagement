@@ -1,0 +1,403 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports">
+    <Prefix name="" IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="/Strength_0000223"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000213"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000221"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000211"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000218"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000208"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000216"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000228"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000206"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000214"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000226"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000204"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000212"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000224"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000210"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000222"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000220"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000229"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000207"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000219"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000227"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000205"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000217"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000225"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000215"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="/Strength_0000202"/>
+        <Class IRI="/Strength_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000203"/>
+        <Class IRI="/Strength_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000204"/>
+        <Class IRI="/Strength_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000206"/>
+        <Class IRI="/Strength_0000205"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000207"/>
+        <Class IRI="/Strength_0000206"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000208"/>
+        <Class IRI="/Strength_0000207"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000209"/>
+        <Class IRI="/Strength_0000207"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000210"/>
+        <Class IRI="/Strength_0000207"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000211"/>
+        <Class IRI="/Strength_0000207"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000212"/>
+        <Class IRI="/Strength_0000207"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000213"/>
+        <Class IRI="/Strength_0000207"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000214"/>
+        <Class IRI="/Strength_0000207"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000215"/>
+        <Class IRI="/Strength_0000207"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000216"/>
+        <Class IRI="/Strength_0000207"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000217"/>
+        <Class IRI="/Strength_0000207"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000218"/>
+        <Class IRI="/Strength_0000206"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000219"/>
+        <Class IRI="/Strength_0000218"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000220"/>
+        <Class IRI="/Strength_0000218"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000221"/>
+        <Class IRI="/Strength_0000218"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000222"/>
+        <Class IRI="/Strength_0000218"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000223"/>
+        <Class IRI="/Strength_0000218"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000224"/>
+        <Class IRI="/Strength_0000218"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000225"/>
+        <Class IRI="/Strength_0000218"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000226"/>
+        <Class IRI="/Strength_0000205"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000227"/>
+        <Class IRI="/Strength_0000226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000228"/>
+        <Class IRI="/Strength_0000226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000229"/>
+        <Class IRI="/Strength_0000226"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="/Strength_0000201"/>
+        <Class IRI="/Strength_0000205"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Strength_0000202"/>
+        <Class IRI="/Strength_0000203"/>
+        <Class IRI="/Strength_0000204"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Strength_0000206"/>
+        <Class IRI="/Strength_0000226"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Strength_0000207"/>
+        <Class IRI="/Strength_0000218"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Strength_0000208"/>
+        <Class IRI="/Strength_0000209"/>
+        <Class IRI="/Strength_0000210"/>
+        <Class IRI="/Strength_0000211"/>
+        <Class IRI="/Strength_0000212"/>
+        <Class IRI="/Strength_0000213"/>
+        <Class IRI="/Strength_0000214"/>
+        <Class IRI="/Strength_0000215"/>
+        <Class IRI="/Strength_0000216"/>
+        <Class IRI="/Strength_0000217"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Strength_0000219"/>
+        <Class IRI="/Strength_0000220"/>
+        <Class IRI="/Strength_0000221"/>
+        <Class IRI="/Strength_0000222"/>
+        <Class IRI="/Strength_0000223"/>
+        <Class IRI="/Strength_0000224"/>
+        <Class IRI="/Strength_0000225"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Strength_0000227"/>
+        <Class IRI="/Strength_0000228"/>
+        <Class IRI="/Strength_0000229"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000201</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">StrengthSportType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000202</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CrossFit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000203</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">OlyLifting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000204</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Powerlifting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000205</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">StrengthSportComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000206</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Exercise</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000207</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Weightlifting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000208</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Squat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000209</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bench</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000210</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Deadlift</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000211</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FrontSquat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000212</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">OverheadSquat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000213</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clean</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000214</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SplitJerk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000215</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PushPress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000216</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Snatch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000217</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Thruster</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000218</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GymnasticsElemets</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000219</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PullUps</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000220</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ChestToBar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000221</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ToesToBar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000222</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MucleUp(Bar)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000223</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MuscleUp(Rings)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000224</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HandstandWalking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000225</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HandStandPushups</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000226</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Equipment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000227</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Attire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000228</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Structural</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000229</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Weights</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
