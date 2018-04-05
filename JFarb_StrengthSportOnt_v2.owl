@@ -1,0 +1,1530 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/jfarbstein/ontologies/StrengthSports"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/jfarbstein/ontologies/StrengthSports">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is an ontology about strength sports. It is intended to show connections between 3 types of activities (CrossFit, Olympic Weightlifting and Power Lifting).</Literal>
+    </Annotation>
+    <Declaration>
+        <ObjectProperty IRI="/Strength_0000380"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/Strength_0000376"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/Strength_0000378"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000381"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000371"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000383"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000361"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000351"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000373"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/Strength_0000384"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000363"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000341"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000353"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000375"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000343"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000365"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000355"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000345"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000389"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000367"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000357"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000347"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000359"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000349"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000339"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/Strength_0000377"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000370"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000360"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000382"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000350"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000372"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000362"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000340"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000352"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000374"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000364"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000386"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000342"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000344"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000366"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000356"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000346"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000368"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000358"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/Strength_0000379"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strength_0000348"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000208"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000208"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000204"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000209"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000204"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000210"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000210"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000204"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000212"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000384"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000208"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000212"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000384"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000211"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000214"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000203"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000216"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000216"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000203"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000217"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000384"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000213"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000219"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000220"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000221"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000224"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000225"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000226"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000203"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000226"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000204"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000226"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000228"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="/Strength_0000381"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000228"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="/Strength_0000383"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000339"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000228"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000339"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="/Strength_0000352"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000340"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000228"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000340"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000341"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000228"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000341"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000220"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000341"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000221"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000341"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="/Strength_0000351"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000342"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000228"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000343"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000228"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000343"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000344"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000344"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="/Strength_0000381"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000344"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="/Strength_0000383"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000345"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000345"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="/Strength_0000381"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000345"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="/Strength_0000383"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000346"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000346"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000346"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000203"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000346"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000204"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000347"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000347"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="/Strength_0000381"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000347"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="/Strength_0000383"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000348"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000348"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000204"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000349"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000349"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000350"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000350"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000351"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000218"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000351"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000352"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000218"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000352"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000353"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000229"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000353"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000208"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000353"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000209"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000353"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000210"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000353"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000211"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000353"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000212"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000353"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000213"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000353"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000214"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000353"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000215"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000353"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000216"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000353"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000217"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000355"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000229"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000356"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000229"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000356"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000376"/>
+            <Class IRI="/Strength_0000372"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000357"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000229"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000358"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000229"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000359"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000229"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000360"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000229"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000361"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000229"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000362"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000229"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000363"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000229"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000363"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="/Strength_0000389"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000364"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000229"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000364"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="/Strength_0000389"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000365"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000366"/>
+        <Class IRI="/Strength_0000365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000366"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="/Strength_0000373"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000367"/>
+        <Class IRI="/Strength_0000365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000367"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000376"/>
+            <Class IRI="/Strength_0000372"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000368"/>
+        <Class IRI="/Strength_0000365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000368"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000376"/>
+            <Class IRI="/Strength_0000372"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000370"/>
+        <Class IRI="/Strength_0000365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000370"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000376"/>
+            <Class IRI="/Strength_0000374"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000370"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000210"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000370"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000219"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000370"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000220"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000370"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="/Strength_0000340"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000370"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="/Strength_0000351"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000371"/>
+        <Class IRI="/Strength_0000365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000371"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000377"/>
+            <Class IRI="/Strength_0000374"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000371"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000379"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000210"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000372"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000205"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000373"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000205"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000373"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000376"/>
+            <Class IRI="/Strength_0000372"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000374"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000205"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000374"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="/Strength_0000339"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000374"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="/Strength_0000340"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000375"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000205"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000381"/>
+        <Class IRI="/Strength_0000375"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000381"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000204"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000382"/>
+        <Class IRI="/Strength_0000375"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000382"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000383"/>
+        <Class IRI="/Strength_0000375"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000383"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000203"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000386"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000229"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000386"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000208"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000386"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000209"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000386"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000210"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000386"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000211"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000386"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000212"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000386"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000213"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000386"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000214"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000386"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000215"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000386"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000216"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000386"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000378"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000217"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000389"/>
+        <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000205"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000389"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000389"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000203"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strength_0000389"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/Strength_0000380"/>
+            <Class IRI="http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000204"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/Strength_0000376"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/Strength_0000377"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/Strength_0000378"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/Strength_0000379"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/Strength_0000380"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000201</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class contains 3 different types of strength sport.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000202</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Crossfit is a high intensity strength sport that incorporates components from gymnastics, olympic lifting and other strength sports.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000203</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Olympic weightlifting is a sport that consists of three maximum attempts at two lifts: snatch, and clean&amp;jerk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000204</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Powerlifting in a strength sport that consists of three maximum attempts at 3 lifts: squat, bench, deadlift.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000205</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class contains elements that are part of various strength sports.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000206</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The act of undergoing physical activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000207</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A type of exercise involving the lifting of weighted barbells and dumbbells to increase strength and conditioning.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000208</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a (back) squat involves placng a loaded barbell on the shoulders, bending ones knees until quads are parallel with the knees and returning to starting position.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000209</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A bench press is a powerlifitng movememnt whenre an athlete starts laying on their back on a weight bench, lifts the loaded barbell out of the stand and brings it to their chest in a controlled motion. After a short pause, the barbell is pushed up and returned to the stand.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000210</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A powerlifting movememnt where a loaded barbell is taken from the floot to the hips in one fluid motion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000211</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A squat where the barbell remains held in front of the shouders for the duration of the squat movememnt.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000211</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Squat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000212</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A squat where the barbell remains held overhead throught the duration of the squat movmement.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000212</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Squat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000213</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">During a clean, the athlete moves a loaded barnbell from the floor to a front rack position where the barbell rests on the deltoids.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000214</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A compound olympic weightlifting movememnt involving bringing a loaded barbell from the floor to a front rack position and them pressing it overehead in one motion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000215</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A pushpress is a compound movemment where a barbell or dumbbell is raised from shoulders to overhead using momentum generated by the lower body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000216</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A snatch is an olympic weightlifting movememnt involving raising a loaded barbell from the floor to an overhead position in one movememnt without transitioning at the shoulders.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000217</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A compound movememnt consisting of a front squat followed by a shoulder press.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000218</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Crossfit movements taken from gymnastics training.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000219</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The athlete begins by hanging from the rigging and pulls up until their chin is at the levelof the bar.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000220</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A movement during which an athlete pulls up until their chest is at the bar prior to lowering back to a hanging position.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000221</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An athlete hangs from the rigging and lifts their legs up to touch the bar prior to lowering back into the hang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000224</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A handstand hold in which the athlete moves one arm at a time to move forward on their hands.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000225</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A handstand pushup involves holding a handstand and bending the elbows until the top of the head touches the floor prior to pushing back up to a handstand hold.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000226</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The necessary items needed for a particular purpose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000227</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The objects worn by athletes when participating in their sport of choice.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000228</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of equipment that is typically present as part of the facility where a strength sport takes place.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jfarbstein/ontologies/2018/StrengthSports/Strength_0000229</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Weighted objects used in strength sports.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000339</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Round wooded circles hung from a ceiling at a set height used for some gymnastics components of CrossFit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000339</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Rings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000340</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Thick woven material forming a rope that is hung from the ceiling and can be used for climbing in a fitness facility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000340</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ClimbingRopes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000341</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Rigging is a structure of connected bars placed around the perimiter of a crossfit fascility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000341</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Rigging</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000342</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Wooden rectabgular floor that is made of layers intended to withstand impact from dropped weights.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000342</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Platform</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000343</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Connected rubber tiles used for high impact exersize and weightlifting in a fitness facility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000343</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RubberFloor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000344</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Singlet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000345</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">These sturdy shoes have a raised heel and flat sole for optimal performance during a squat movements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000345</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">WeightliftingShoes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000346</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">2 stiff leather or canvas belt with a buckle olr lever closure worn around the waist for core and back support during heavy movements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000346</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Belt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000347</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">3 - 7 mm thick neoprene cylinders worn on the knees for support during weightliting.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000347</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">KneeSleeves</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000348</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">KneeWraps are thick and narrow pieces of canvas that are wrapped around the knee join to support during heavy lowerbody movements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000348</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">KneeWraps</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000349</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Comforable athletic attire that does not restrict movement and is suitable for high intensity training.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000349</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">WorkoutClothing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000350</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">These indoor sneakers have a reinforced heel cup and flat soles for stability and quick movement patterns.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000350</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CrossFitSneakers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000351</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A complex movement during which an athlete begins hanging from the rigging. They then pull their upper body up over the bar and support their weight on their extended arms prior to lowering back to a hanging position.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000351</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BarMuscleUp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000352</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A complex movement during which an athlete starts hanging from the rings and then performs a kipp swing and agressivel pulls themself over the rings to be supported by the athlete&apos;s straight arms prior to lowering back down to a hanging position.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000352</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RingMuscleUp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000353</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A long standard diameter bar that plates are attached to in order to achieve the desired weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000353</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Barbell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000355</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Shorter than average 15 pound barbell used when other equipment is too heavy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000355</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TrainingBar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000356</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hollow pipe same length as barbell used to learn mobility and movememnt patterns before lifting barbells.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000356</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PVCPipes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000357</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Standard weightlifting plate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000357</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">45lbPlates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000358</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Large diameter weightlifting plate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000358</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">35LbPlates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000359</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Medium diameter rubber weighted plates used to increase overall weight being lifted.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000359</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">25LbPlates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000360</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Medium diameter weight plate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000360</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">15LbPlates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000361</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Small diameter rubberized plates.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000361</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">10LbPlates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000362</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Small plates ranging from 5 - .25 pounds used to gradually increase weight being lifted.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000362</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FractionalPlates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000363</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A round weight with a handle used in compound movemments for additional cardiovascular strain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000363</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">KettleBells</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000364</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Weightlifting aparatus with a handle to be used in similar ways as a barbell is.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000364</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dumbbells</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000365</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class contains strength sport related equipment not matching other subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000365</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RandomGear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000366</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is a thin rubber fabric of recangular shape used to make stretching and yoga more comortable for athletes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000366</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">YogaMat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000367</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A mobility ball is a small, hard ball used to roll over trigger points to release pain and tension.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000367</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MobilityBall</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000368</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A foam roller is a long, hard cylindrical object used to release to release muscle tightness and trigger points.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000368</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FoamRoller</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000370</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A white calcium sulfate powder used to improve grip and increase friction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000370</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Chalk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000371</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a talcum powder or cornstarch used to reduce friction during certain lifts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000371</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BabyPowder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000372</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the ability to move without physical pain or restriction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000372</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mobility</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000373</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an activity that involves lengthening muscles and connective tissue to improve flexibility and muscle function.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000373</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Stretching</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000374</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the ability to hold onto equipment tightly regardless of weight being supported.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000374</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Grip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000375</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An event where athletes face off against each other when performing the requirements of their strength sport.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000375</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Competition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000376</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This object property adds to an item.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000376</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Increases</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000377</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This onject property lessens or takes away from.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000377</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Decreases</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000378</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This obect property indicates a requirement between one object and another .</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000378</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RequiredFor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000379</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This implies a recommendation being present between one object and another.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000379</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RecommendedFor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000380</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This object properties indicates association with an item.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000380</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PartOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000381</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Powerlifting competitions require the completion of 3 of the 3 lifts in adherence to predefined movemement standards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000381</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PowerliftingCompetition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000382</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CrossFit competitions involve the compeletion of a given workout for best time, best amount of repition and highest weight lifted.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000382</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CrossFitCompetition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000383</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Oly weightlifting competitions require athletes to complete 3 maximum weight attemps of the snatch and clean&amp;jerk movememnts accroding to predefined movement standards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000383</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">OlyWeightliftingCompetition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000384</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This object property applies to the difficulty level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000384</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HarderThan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000386</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Round rubberized plates to be stacked ontop of a barbell.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000386</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">WeightPlates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Strength_0000389</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The act of participating in movememnts with the intent of improving stregth, endurance and body composition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Strength_0000389</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Conditioning</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
